@@ -1,0 +1,72 @@
+html , body {
+
+    height: 100vh;
+    width : 100vw ;
+    overflow: hidden;
+    background-color: rgb(46, 46, 46)
+}
+body{
+    padding: 0;
+    margin: 0px !important;
+}
+.container {
+   
+
+    display:grid ;
+    margin : 0px;
+   
+    grid-gap: 0;
+    height: 100vh;
+    width: 100vw;
+    /* height:500px ;
+    width : 1178px ;  */
+
+    border-color: white;
+    grid-template-areas: 
+    "col1 col2 col3 col4 ";  
+    ;
+    
+    
+}
+
+.generationButton {
+  position: absolute;
+ 
+
+}
+
+.elements {
+    justify-items: center;
+    border: 3px solid grey;
+}
+.header {
+    color : white ;
+    text-align: center;
+}
+
+.container col1 {
+
+    grid-area: col1;
+    width: 50px;
+}
+
+.container col2 {
+
+    grid-area: col2;
+    width: 50px;
+}
+
+.container col3 {
+
+    grid-area: col3;
+    width: 50px;
+}
+
+.container col4 {
+    grid-area: col4;
+    width: 40px;
+}
+
+
+
+
